@@ -6,10 +6,10 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "iclassify-interface"
     gem.summary = %Q{Module for interfacing with iclassify.}
-    gem.email = "andrew@andrewloe.com"
-    gem.homepage = "http://github.com/loe/iclassify-interface"
-    gem.authors = ["Adam Jacob", "W. Andrew Loe III"]
-    gem.add_dependency("uuidtools", '>= 2.0.0')
+    gem.email = "erwan@silentale.com"
+    gem.homepage = "http://github.com/earzur/iclassify-interface"
+    gem.authors = ["Adam Jacob", "W. Andrew Loe III","Erwan Arzur"]
+    gem.add_dependency("uuidtools")
     gem.add_dependency("highline")
     gem.add_dependency("builder")
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
